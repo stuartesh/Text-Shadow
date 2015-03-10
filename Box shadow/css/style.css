@@ -1,0 +1,25 @@
+a{
+    font-weight: 400;
+    font-size: 29px;
+}
+
+.myDiv1 {
+    width: 120px;
+    height: 100px;
+    background-color: #444;
+    color: white;
+    box-shadow: 22px 17px 25px 2px rgba(0,0,0,0.79);
+}
+
+.myDiv2 {
+    width: 120px;
+    height: 100px;
+    background-color: #444;
+    color: white;
+    -webkit-animation: mymove 4s infinite; /* Chrome, Safari, Opera */
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    60% {box-shadow: 22px 17px 25px 2px rgba(0,0,0,0.79);}
+}
+
